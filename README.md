@@ -11,3 +11,28 @@ Esta API foi criada para dar suporte a um projeto integrador destinado a um apli
 - **Autenticação com Token:** O acesso às rotas é protegido por autenticação baseada em tokens, garantindo que apenas usuários autorizados possam interagir com a API. 🔐🔑
 
 - **Tratamento de Erros Avançado:** A API oferece tratamento adequado de erros, incluindo códigos HTTP descritivos, para uma experiência de usuário mais amigável. 🚦🔧
+
+## Como Usar
+
+1. **Autenticação:** Antes de usar a API, obtenha um token de autenticação através de um processo de autenticação apropriado.
+
+2. **Rotas Disponíveis:** Consulte a lista de rotas disponíveis e suas funcionalidades:
+
+### Poções
+
+- **Listar todas as Poções:** `GET /pocoes` (Rota: `pocoes.all`)
+- **Recuperar uma Poção por ID:** `GET /pocoes/{id}` (Rota: `pocoes.one`)
+- **Criar uma Nova Poção:** `POST /pocoes` (Rota: `pocoes.store`)
+- **Atualizar uma Poção:** `PUT /pocoes/{id}` (Rota: `pocoes.update`)
+- **Excluir uma Poção:** `DELETE /pocoes/{id}` (Rota: `pocoes.delete`)
+
+### Inventário
+
+- **Listar todos os Itens do Inventário:** `GET /inventario` (Rota: `inventario.all`)
+- **Recuperar um Item do Inventário por ID:** `GET /inventario/{id}` (Rota: `inventario.one`)
+- **Adicionar um Novo Item ao Inventário:** `POST /inventario` (Rota: `inventario.store`)
+- **Atualizar um Item do Inventário:** `PUT /inventario/{id}` (Rota: `inventario.update`)
+- **Remover um Item do Inventário:** `DELETE /inventario/{id}` (Rota: `inventario.delete`)
+
+
+
